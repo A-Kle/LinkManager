@@ -5,7 +5,13 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkManager", "LinkManager\LinkManager.csproj", "{5FEF2BFF-F63D-44FD-93D0-8AC31C75F621}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkManager.Data", "LinkManager.Data\LinkManager.Data.csproj", "{AE275F5E-4EF8-4269-8937-343E7DD4092C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkManager.Data", "LinkManager.Data\LinkManager.Data.csproj", "{AE275F5E-4EF8-4269-8937-343E7DD4092C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkManager.Services", "LinkManager.Services\LinkManager.Services.csproj", "{D7A82F6C-5A24-47A2-94C6-03A28A629A94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkManagerApi", "LinkManagerApi\LinkManagerApi.csproj", "{DDD3EF81-1900-48C0-A3FB-CDF1515FA54F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkManager.Utils", "LinkManager.Utils\LinkManager.Utils.csproj", "{FD9CC782-0D06-4FDC-B869-4A368ECE95EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{AE275F5E-4EF8-4269-8937-343E7DD4092C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE275F5E-4EF8-4269-8937-343E7DD4092C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE275F5E-4EF8-4269-8937-343E7DD4092C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7A82F6C-5A24-47A2-94C6-03A28A629A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A82F6C-5A24-47A2-94C6-03A28A629A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A82F6C-5A24-47A2-94C6-03A28A629A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A82F6C-5A24-47A2-94C6-03A28A629A94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDD3EF81-1900-48C0-A3FB-CDF1515FA54F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDD3EF81-1900-48C0-A3FB-CDF1515FA54F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDD3EF81-1900-48C0-A3FB-CDF1515FA54F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDD3EF81-1900-48C0-A3FB-CDF1515FA54F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD9CC782-0D06-4FDC-B869-4A368ECE95EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD9CC782-0D06-4FDC-B869-4A368ECE95EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD9CC782-0D06-4FDC-B869-4A368ECE95EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD9CC782-0D06-4FDC-B869-4A368ECE95EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
